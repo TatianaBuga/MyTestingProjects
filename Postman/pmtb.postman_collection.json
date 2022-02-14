@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "9e7be49c-a54d-4211-a838-8d5bbdb1a755",
+		"name": "pmtb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://mooikfkahbdckldjjndioackbalphokd/assets/atoms.js.map",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://mooikfkahbdckldjjndioackbalphokd/assets/atoms.js.map",
+					"protocol": "http",
+					"host": [
+						"mooikfkahbdckldjjndioackbalphokd"
+					],
+					"path": [
+						"assets",
+						"atoms.js.map"
+					]
+				},
+				"description": "n1"
+			},
+			"response": []
+		},
+		{
+			"name": "https://order2.pluginweb.preprod.paymytable.com/restaurant/20000104/catalog?apiConsumer=NjEzOTM0MzU5NDg0ODI1NjpESUI4bVJLVlB3RWw",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://order2.pluginweb.preprod.paymytable.com/restaurant/20000104/catalog?apiConsumer=NjEzOTM0MzU5NDg0ODI1NjpESUI4bVJLVlB3RWw",
+					"protocol": "https",
+					"host": [
+						"order2",
+						"pluginweb",
+						"preprod",
+						"paymytable",
+						"com"
+					],
+					"path": [
+						"restaurant",
+						"20000104",
+						"catalog"
+					],
+					"query": [
+						{
+							"key": "apiConsumer",
+							"value": "NjEzOTM0MzU5NDg0ODI1NjpESUI4bVJLVlB3RWw"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://paymytablepreprod.appspot.com",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://paymytablepreprod.appspot.com",
+					"protocol": "https",
+					"host": [
+						"paymytablepreprod",
+						"appspot",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://paymytablepreprod.appspot.com/rest/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://paymytablepreprod.appspot.com/rest/",
+					"protocol": "https",
+					"host": [
+						"paymytablepreprod",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"rest",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
